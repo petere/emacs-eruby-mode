@@ -1,7 +1,7 @@
 # eruby-mode
 
 This is an Emacs package with a minor mode for editing eRuby (`.erb`)
-files.
+template files.
 
 eRuby files are regular files with embedded placeholder sections
 containing Ruby code.  Depending on the kind of the embedding file and

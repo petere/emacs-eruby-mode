@@ -1,4 +1,4 @@
-;;; eruby-mode.el --- minor mode for eRuby template (.erb) files
+;;; eruby-mode.el --- minor mode for eRuby (.erb) template files
 
 ;; Copyright (C) 2015 Peter Eisentraut
 
@@ -22,7 +22,16 @@
 
 ;;; Commentary:
 ;;
-;; Minor mode for editing eRuby template files.
+;; This is an Emacs package with a minor mode for editing eRuby (.erb)
+;; template files.
+;;
+;; This package is mainly intended for editing configuration file
+;; templates in Chef and Puppet and the like, where the embedding
+;; files can be of a wide variety (configuration files, YAML, shell
+;; scripts, whatever) and the embedded Ruby is often very simple.  You
+;; edit the file using its normal major mode, and this minor mode will
+;; highlight the placeholder sections.  This package will
+;; automatically set that up.
 
 ;;; Code:
 
